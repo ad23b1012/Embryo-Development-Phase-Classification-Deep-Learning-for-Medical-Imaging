@@ -14,7 +14,7 @@ A custom **FinalOrdinalLoss** is proposed and evaluated against a standard cross
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── notebook.ipynb                  # Full training pipeline
@@ -146,7 +146,7 @@ Overall, all models achieve **~25–35% accuracy on a 15-class problem** (random
 
 ---
 
-## 📐 Mathematical Justification
+## Mathematical Justification
 
 A formal report proving the loss function satisfies all theoretical requirements for a valid training objective is included in `custom_loss_report.pdf` / `.tex`.
 
@@ -160,7 +160,7 @@ A formal report proving the loss function satisfies all theoretical requirements
 
 ---
 
-## ⚙️ Setup & Reproduction
+## Setup & Reproduction
 
 ### Requirements
 
@@ -176,7 +176,7 @@ pip install torch torchvision scikit-learn pandas numpy Pillow tqdm
 
 ---
 
-## 🛠️ Transforms
+## Transforms
 
 ```python
 # Training
